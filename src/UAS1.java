@@ -3,15 +3,15 @@ public class UAS1{
 
     public static void main(String[] args) {
         ArrayList<String> kendaraanList = new ArrayList<>();
-        kendaraanList.add("Toyota");
-        kendaraanList.add("Honda");
-        kendaraanList.add("Suzuki");
-        kendaraanList.add("BMW");
+        kendaraanList.add("Jeep");
+        kendaraanList.add("Honda86");
+        kendaraanList.add("Hrv");
+        kendaraanList.add("Hino");
 
         boolean[] conditions = test(kendaraanList);
 
         for (boolean condition : conditions) {
-            System.out.println("Karakternya == yang ada di array list :"+condition);
+            System.out.println("Jenisnya = yang ada di array list :"+condition);
         }
     }
 
